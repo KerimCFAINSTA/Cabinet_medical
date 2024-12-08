@@ -1,0 +1,112 @@
+h2 {
+    color: blue;
+    /* Couleur du texte */
+    font-size: 24px;
+    /* Taille de la police */
+    text-align: center;
+    /* Alignement du texte */
+}
+
+a {
+    color: blue;
+    /* Couleur du texte du lien */
+    text-decoration: none;
+    /* Suppression du soulignement par défaut */
+    border: 2px solid blue;
+    /* Ajout d'un contour autour du lien */
+    padding: 5px 10px;
+    /* Ajout d'un espacement intérieur pour le contour */
+    display: inline-block;
+    /* Permet au lien d'avoir une largeur et une hauteur définie */
+}
+
+a:hover {
+    color: red;
+    /* Couleur du texte du lien au survol */
+    border-color: red;
+    /* Changement de la couleur du contour au survol */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image: url('images/arriere.jpg');
+    background-size: cover; /* Pour couvrir toute la zone du corps */
+    background-repeat: no-repeat; /* Pour éviter la répétition de l'image */
+    
+
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff;
+    /* Changement de couleur en blanc */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+center {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #333;
+}
+
+.nav {
+    margin-top: 20px;
+}
+
+.nav a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.nav img {
+    border-radius: 50%;
+    border: 2px solid #333;
+    transition: transform 0.3s ease;
+}
+
+.nav img:hover {
+    transform: scale(1.1);
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    padding: 10px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
